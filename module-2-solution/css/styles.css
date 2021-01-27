@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+h1 {
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
+
+.pink-bg {
+		background: #fe019a;
+	}
+
+.blue-bg {
+	background: #2a9df4;
+}
+
+.oran-bg {
+	background: #ff9d5c;
+}
+
+.grey-bg {
+	background: #aaaaaa;
+}
+
+.title {
+	text-align: center;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 70px;
+	height: 40px;
+}
+
+/* Large Devices */
+@media (min-width: 992px){
+	.col-lg-3 {
+		position: relative;
+		padding-top: 40px;
+		float: left;
+		width: 30%;
+		margin: 1.5%; 
+	}
+}
+
+/* Medium Devices */
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-2, .col-md-1 {
+		position: relative;
+		padding-top: 40px;
+		float: left;
+	}
+
+	.col-md-2 {
+		width: 45%;
+		margin: 2.5%;
+	}
+
+	.col-md-1 {
+		width: 95%;
+		margin: 2.5%;
+	}
+}
+
+/* Small Devices */
+@media (max-width: 767px){
+	.col-sm-1 {
+		position: relative;
+		padding-top: 40px;
+		float: left;
+		width: 95%;
+		margin: 2.5%;
+	}
+}
