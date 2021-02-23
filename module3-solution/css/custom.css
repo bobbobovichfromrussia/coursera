@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+html {
+	padding: 10px;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+nav, navbar-default, navbar-header {
+	padding: 0px;
+	margin: -10px -10px 10px -10px;
+}
+
+.grey-bg {
+	background: #aaaaaa;
+}
+
+
+
+@media(max-width: 575px){
+	.col-xs-12 {
+		width: 70%;
+		margin: auto;
+	}
+}
