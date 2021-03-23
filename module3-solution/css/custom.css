@@ -1,31 +1,55 @@
-* {
-	box-sizing: border-box;
-	padding: 10px;
-}
-
-html {
-	padding: 10px;
-}
-
-body {
-	padding: 0px;
-	margin: 0px;
-}
-
-nav, navbar-default, navbar-header {
-	padding: 0px;
-	margin: -10px -10px 10px -10px;
+#header-nav {
+	background-color: #aaaaaa;
+	border-radius: 0;
+	border: 0;
+	font-style: bold;
+	font-size: 1.5em;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .grey-bg {
 	background: #aaaaaa;
 }
 
-
+.navbar h1 {
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0, auto, 0;
+	float: left;
+}
 
 @media(max-width: 575px){
 	.col-xs-12 {
-		width: 70%;
-		margin: auto;
+		width: 75%;
+		margin-left: 12.5%;
+		margin-right: 12.5%;
+		margin-top: 5%;
+	}
+}
+
+@media(min-width: 576px) and (max-width: 767px){
+	.col-sm-6-left {
+		width: 37.5%;
+		margin-left: 10%;
+		margin-right: 2.5%;
+	}
+	.col-sm-6-right {
+		width: 37.5%;
+		margin-left: 2.5%;
+		margin-right: 10%;
+	}
+	.col-sm-12 {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 5%;
+	}
+}
+
+@media(min-width: 768px){
+	.col-md-4 {
+		width: 32%;
+		margin: 0.5%;
 	}
 }
